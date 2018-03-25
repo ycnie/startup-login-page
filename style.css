@@ -1,0 +1,39 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    max-width: 65px;
+    border-width: 3px;
+    border-color: #F05F44;
+}
+
+header.startup {
+    height: 100%;
+    background-image: url(header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+header.startup hr {
+    margin-top: 200px;
+    margin-bottom: 30px; 
+  }
+
+.slogan {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.btn-lg {
+    height: 50px;
+    width: 230px;
+    border-radius: 25px;
+}
